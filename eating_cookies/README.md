@@ -4,10 +4,34 @@ Cookie Monster can eat either 0, 1, 2, or 3 cookies at a time. If he were given 
 
 For example, for a jar of cookies with `n = 3` (the jar has 3 cookies inside it), there are 4 possible ways for Cookie Monster to eat all the cookies inside it:
 
- 1. He can eat 1 cookie at a time 3 times
- 2. He can eat 1 cookie, then 2 cookies 
- 3. He can eat 2 cookies, then 1 cookie
- 4. He can eat 3 cookies all at once. 
+ 1. 1,1,1
+ 2. 1,2 
+ 3. 2,1
+ 4. 3 
+
+ `n = 4`
+ 1. 1,1,1,1
+ 2. 1,1,2
+ 3. 1,2,1
+ 4. 1,3
+ 5. 2,1,1
+ 6. 2,2
+ 7. 3,1
+
+ `n = 5`
+ 1. 1,1,1,1,1
+ 2. 1,2,1,1
+ 3. 1,1,2,1
+ 4. 1,1,1,2
+ 5. 1,2,2
+ 6. 1,3,1
+ 7. 1,1,3
+ 8. 2,1,1,1
+ 9. 2,2,1
+ 10. 2,1,2
+ 11. 2,3
+ 12. 3,1,1
+ 13. 3,2
 
 Thus, `eating_cookies(3)` should return an answer of 4.
 
